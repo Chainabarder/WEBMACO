@@ -1,4 +1,9 @@
 
+
+body{
+
+	line-height: 1.4em;
+}
 #row-1 {
 
 	width: 100%;
@@ -18,8 +23,8 @@
 #logo {
 
 	display: inline-flex;
-	justify-content: left;
-	align-items: left;
+	justify-content: center;
+	align-items: flex-end;
 }
 
 
@@ -57,35 +62,107 @@ ul li a {
 	font-size: 18px;
 	font-family: 'Josefin Sans', sans-serif;
 	text-decoration: none;
-	color: #d83a82;
+	color: #000;
+}
+
+#line-1 {
+
+	height: 0.1em;
+	background-color: #d83a82; 
 }
 
 /* ACA TERMINA EL HEADER */
 
 #row-2 {
 
-	height: 200px;
+	height: 600px;
 	width: 100%;
 }
 
-#encabezado {
-
-
-}
-
-h1 {
-	font-size: 40px;
-	font-family: 'Josefin Sans', sans-serif;
-
-}
 
 #img-bck {
 
 	background-image: url("../imgs/fondo.gif");
     background-color: transparent;
+    height: 600px;
+  	margin: 30px 60px;
+  	display: flex;
+}
+
+span {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+h1 {
+	font-size: 80px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #d83a82;
+
 }
 
 
+#line-2 {
+
+	height: 0.1em;
+	background-color: #d83a82;
+}
+/* ACA TERMINA EL MAIN */
+
+
+#row-3 {
+
+	height: 400px;
+	width: 100%;
+	margin-top: 100px;
+	
+}
+
+#footer {
+
+	height: 100%;
+	width: 100%;
+	display: flex;
+}
+
+#vision {
+
+	margin-top: 10px;
+	margin-left: 100px;
+	text-align: center;
+	width: 36%;
+	padding: 0px 50px;
+
+}
+
+p {
+
+	margin-top: 25px;
+	margin-left: 40px;
+	width: 40%;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 16px;
+}
+
+#logo-foot {
+
+	width: 15%;
+	margin-top: 80px;
+}
+
+#redes {
+
+	background-color: #d83a82;
+	height: 40px;
+	width: 200px;
+	margin-top: 200px;
+	display: flex;
+
+	
+
+}
 
 
 
