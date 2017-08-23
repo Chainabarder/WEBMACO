@@ -82,7 +82,8 @@ ul li a {
 
 #img-bck {
 
-	background-image: url("../imgs/fondo.gif");
+	background-image: url("../imgs/fondo1.gif");
+	background-repeat: no-repeat;
     background-color: transparent;
     height: 600px;
   	margin: 30px 60px;
@@ -92,6 +93,7 @@ ul li a {
 
 
 h1 {
+	
 	font-size: 80px;
 	font-family: 'Josefin Sans', sans-serif;
 	color: #d83a82;
