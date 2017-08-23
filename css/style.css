@@ -1,13 +1,18 @@
 
+#row-1 {
 
+	width: 100%;
+	height: 100%;
+}
 
-#container {
+.container {
 
-	height: 100px;
+	height: 100%;
 	color: #FFF;
 	display: flex;
 	justify-content: center;
 	width: 100%;
+	
 }
 
 #logo {
@@ -17,10 +22,7 @@
 	align-items: left;
 }
 
-.row {
 
-	width: 100%;
-}
 
 #navigation {
 
@@ -55,5 +57,36 @@ ul li a {
 	font-size: 18px;
 	font-family: 'Josefin Sans', sans-serif;
 	text-decoration: none;
-	color: #000;
+	color: #d83a82;
 }
+
+/* ACA TERMINA EL HEADER */
+
+#row-2 {
+
+	height: 200px;
+	width: 100%;
+}
+
+#encabezado {
+
+
+}
+
+h1 {
+	font-size: 40px;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+#img-bck {
+
+	background-image: url("../imgs/fondo.gif");
+    background-color: transparent;
+}
+
+
+
+
+
+
