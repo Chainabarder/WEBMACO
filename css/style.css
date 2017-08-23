@@ -89,12 +89,7 @@ ul li a {
   	display: flex;
 }
 
-span {
-	display: flex;
-	align-items: center;
-	justify-content: center;
 
-}
 
 h1 {
 	font-size: 80px;
@@ -103,6 +98,19 @@ h1 {
 
 }
 
+span {
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+span p {
+
+	font-size: 35px;
+	line-height: 1em;
+	color: #d83a82;
+}
 
 #line-2 {
 
@@ -154,16 +162,29 @@ p {
 
 #redes {
 
-	background-color: #d83a82;
-	height: 40px;
+	background-color: transparent;
+	height: 50px;
 	width: 200px;
 	margin-top: 200px;
+	margin-left: 25px;
 	display: flex;
-
-	
-
 }
 
+.fa-facebook-official:before {
 
+	font-size: 35px;
+	padding: 0px 10px;
+}
 
+.fa-twitter-square:before {
+
+	font-size: 35px;
+	padding: 0px 10px;
+}
+
+.fa-at:before {
+
+	font-size: 35px;
+	padding: 0px 10px;
+}
 
