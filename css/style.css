@@ -3,6 +3,7 @@
 body{
 
 	line-height: 1.4em;
+	background-color: #e85f8a;
 }
 #row-1 {
 
@@ -25,6 +26,11 @@ body{
 	display: inline-flex;
 	justify-content: center;
 	align-items: flex-end;
+}
+
+#logo img {
+
+	vertical-align: top;
 }
 
 
@@ -68,7 +74,7 @@ ul li a {
 #line-1 {
 
 	height: 0.1em;
-	background-color: #d83a82; 
+	background-color: #000; 
 }
 
 /* ACA TERMINA EL HEADER */
@@ -96,7 +102,7 @@ h1 {
 	
 	font-size: 80px;
 	font-family: 'Josefin Sans', sans-serif;
-	color: #d83a82;
+	color: #FFF;
 
 }
 
@@ -111,13 +117,13 @@ span p {
 
 	font-size: 35px;
 	line-height: 1em;
-	color: #d83a82;
+	color: #FFF;
 }
 
 #line-2 {
 
 	height: 0.1em;
-	background-color: #d83a82;
+	background-color: #000;
 }
 /* ACA TERMINA EL MAIN */
 
@@ -154,6 +160,7 @@ p {
 	width: 40%;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 16px;
+	color: #000;
 }
 
 #logo-foot {
@@ -176,17 +183,23 @@ p {
 
 	font-size: 35px;
 	padding: 0px 10px;
+	text-decoration: none;
+	color: #FFF;
 }
 
 .fa-twitter-square:before {
 
 	font-size: 35px;
 	padding: 0px 10px;
+	text-decoration: none;
+	color: #FFF;
 }
 
 .fa-at:before {
 
 	font-size: 35px;
 	padding: 0px 10px;
+	text-decoration: none;
+	color: #FFF;
 }
 
