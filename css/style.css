@@ -67,6 +67,83 @@ ul li a {
 	color: #000;
 }
 
+a:link  {
+   
+ text-decoration:none;   
+}   
+
+.Nosotros {
+
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #000;
+	text-decoration: none;
+}
+
+.Nosotros:hover {
+
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #FFF;
+	transition: all 500ms ease;
+	text-decoration: none;
+
+}
+
+.Servicios {
+
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #000;
+	text-decoration: none;
+
+}
+
+.Servicios:hover {
+
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #FFF;
+	transition: all 500ms ease;
+	text-decoration: none;
+}
+
+.Clientes {
+
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #000;
+	text-decoration: none;
+
+}
+
+.Clientes:hover {
+
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #FFF;
+	transition: all 500ms ease;
+	text-decoration: none;
+}
+
+.Contacto {
+
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #000;
+	text-decoration: none;
+}
+
+.Contacto:hover {
+
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #FFF;
+	transition: all 500ms ease;
+	text-decoration: none;
+}
+
+
 #line-1 {
 
 	height: 0.1em;
