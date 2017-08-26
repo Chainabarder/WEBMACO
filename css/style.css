@@ -156,6 +156,15 @@ a:link  {
 
 	height: 600px;
 	width: 100%;
+	position: relative;
+}
+
+.img-logo {
+
+	position: absolute;
+	left: 505px;
+	top: 320px;
+
 }
 
 
