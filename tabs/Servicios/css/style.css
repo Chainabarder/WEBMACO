@@ -1,10 +1,10 @@
 
-
 body{
 
 	line-height: 1.4em;
-	background-color: #e85f8a;
+	background-color: #FFF;
 }
+
 #row-1 {
 
 	width: 100%;
@@ -17,7 +17,9 @@ body{
 	color: #FFF;
 	display: flex;
 	justify-content: center;
-	width: 100%;
+	width: 1024px;
+
+
 	
 }
 
@@ -26,7 +28,8 @@ body{
 	display: inline-flex;
 	justify-content: center;
 	align-items: flex-end;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
+	margin-top: 58px;
 }
 
 
@@ -35,14 +38,12 @@ body{
 
 	display: flex;
 	justify-content: right;
-}
-
-.menu-nav-container {
-
 	color: transparent;
 	display: flex;
 	width: auto;
 }
+
+
 
 ul {
 
@@ -64,7 +65,7 @@ ul li a {
 	font-size: 18px;
 	font-family: 'Josefin Sans', sans-serif;
 	text-decoration: none;
-	color: #000;
+	color: #e85f8a;
 }
 
 a:link  {
@@ -76,7 +77,7 @@ a:link  {
 
 	font-size: 18px;
 	font-family: 'Josefin Sans', sans-serif;
-	color: #000;
+	color: #e85f8a;
 	text-decoration: none;
 }
 
@@ -84,7 +85,7 @@ a:link  {
 
 	font-size: 18px;
 	font-family: 'Josefin Sans', sans-serif;
-	color: #FFF;
+	color: #000;
 	transition: all 500ms ease;
 	text-decoration: none;
 
@@ -94,7 +95,7 @@ a:link  {
 
 	font-size: 18px;
 	font-family: 'Josefin Sans', sans-serif;
-	color: #000;
+	color: #e85f8a;
 	text-decoration: none;
 
 }
@@ -103,7 +104,7 @@ a:link  {
 
 	font-size: 18px;
 	font-family: 'Josefin Sans', sans-serif;
-	color: #FFF;
+	color: #000;
 	transition: all 500ms ease;
 	text-decoration: none;
 }
@@ -112,7 +113,7 @@ a:link  {
 
 	font-size: 18px;
 	font-family: 'Josefin Sans', sans-serif;
-	color: #000;
+	color: #e85f8a;
 	text-decoration: none;
 
 }
@@ -121,7 +122,7 @@ a:link  {
 
 	font-size: 18px;
 	font-family: 'Josefin Sans', sans-serif;
-	color: #FFF;
+	color: #000;
 	transition: all 500ms ease;
 	text-decoration: none;
 }
@@ -130,7 +131,7 @@ a:link  {
 
 	font-size: 18px;
 	font-family: 'Josefin Sans', sans-serif;
-	color: #000;
+	color: #e85f8a;
 	text-decoration: none;
 }
 
@@ -138,7 +139,7 @@ a:link  {
 
 	font-size: 18px;
 	font-family: 'Josefin Sans', sans-serif;
-	color: #FFF;
+	color: #000;
 	transition: all 500ms ease;
 	text-decoration: none;
 }
@@ -147,7 +148,7 @@ a:link  {
 #line-1 {
 
 	height: 0.1em;
-	background-color: #000; 
+	background-color: #e85f8a; 
 }
 
 /* ACA TERMINA EL NAV */
@@ -156,7 +157,8 @@ a:link  {
 
 	height: 600px;
 	width: 100%;
-	position: relative;
+	margin-top: 10px;
+	
 }
 
 #main-wrapper {
@@ -167,7 +169,8 @@ a:link  {
 
 #img-container {
 
-	margin-left: 300px;
+	margin-left: 215px;
+	margin-top: 20px;
 }
 
 /* ACA EMPIEZA EL FOOTER */
@@ -175,7 +178,7 @@ a:link  {
 #line-2 {
 
 	height: 0.1em;
-	background-color: #000;
+	background-color: #e85f8a;
 }
 
 #row-3 {
@@ -219,7 +222,7 @@ a:link  {
 	font-size: 35px;
 	padding: 0px 10px;
 	text-decoration: none;
-	color: #FFF;
+	color: #e85f8a;
 }
 
 .fa-twitter-square:before {
@@ -227,7 +230,7 @@ a:link  {
 	font-size: 35px;
 	padding: 0px 10px;
 	text-decoration: none;
-	color: #FFF;
+	color: #e85f8a;
 }
 
 .fa-at:before {
@@ -235,6 +238,8 @@ a:link  {
 	font-size: 35px;
 	padding: 0px 10px;
 	text-decoration: none;
-	color: #FFF;
+	color: #e85f8a;
 }
+
+
 
