@@ -164,8 +164,8 @@ a:link  {
 .img-logo {
 
 	position: absolute;
-	left: 505px;
-	top: 320px;
+	left: 360px;
+	top: 337px;
 
 }
 
@@ -201,8 +201,9 @@ span p {
 
 	font-size: 35px;
 	line-height: 1em;
-	color: #FFF;
+	color: #e85f8a;
 	font-family: 'Josefin Sans', sans-serif;
+	
 }
 
 #line-2 {
