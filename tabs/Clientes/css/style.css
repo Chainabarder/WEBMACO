@@ -1,0 +1,265 @@
+body{
+
+	line-height: 1.4em;
+	background-color: #FFF;
+}
+
+#row-1 {
+
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+
+	height: 100%;
+	color: #FFF;
+	display: flex;
+	justify-content: center;
+	width: 1024px;
+
+
+	
+}
+
+#logo {
+
+	display: inline-flex;
+	justify-content: center;
+	align-items: flex-end;
+	margin-bottom: 5px;
+	margin-top: 58px;
+}
+
+
+
+#navigation {
+
+	display: flex;
+	justify-content: right;
+	color: transparent;
+	display: flex;
+	width: auto;
+}
+
+
+
+ul {
+
+	display: inline-flex;
+	list-style-type: none;
+   text-align: center;
+   align-items: center;
+   margin-top: 30px;
+}
+
+ul li {
+
+	margin-top: 40px;
+	margin-left: 30px;
+}
+
+ul li a {
+
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: none;
+	color: #e85f8a;
+}
+
+a:link  {
+   
+ text-decoration:none;   
+}   
+
+.Nosotros {
+
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #e85f8a;
+	text-decoration: none;
+}
+
+.Nosotros:hover {
+
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #000;
+	transition: all 500ms ease;
+	text-decoration: none;
+
+}
+
+.Servicios {
+
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #e85f8a;
+	text-decoration: none;
+
+}
+
+.Servicios:hover {
+
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #000;
+	transition: all 500ms ease;
+	text-decoration: none;
+}
+
+.Clientes {
+
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #e85f8a;
+	text-decoration: none;
+
+}
+
+.Clientes:hover {
+
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #000;
+	transition: all 500ms ease;
+	text-decoration: none;
+}
+
+.Contacto {
+
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #e85f8a;
+	text-decoration: none;
+}
+
+.Contacto:hover {
+
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #000;
+	transition: all 500ms ease;
+	text-decoration: none;
+}
+
+
+#line-1 {
+
+	height: 0.1em;
+	background-color: #e85f8a; 
+}
+
+/* ACA TERMINA EL NAV */
+
+#row-2 {
+
+	height: 400px;
+	width: 100%;
+	margin-top: 5px;
+	
+}
+
+#main-wrapper {
+
+	display: flex;
+
+}
+
+#img-container {
+
+	margin-left: 145px;
+	margin-top: 20px;
+}
+
+.text-container {
+
+	width: 100%;
+	height: 50px;
+}
+
+h2 {
+
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+}
+
+span h2 {
+
+font-family: 'Josefin Sans', sans-serif;
+font-size: 30px;
+color:#e85f8a;
+
+}
+
+/* ACA EMPIEZA EL FOOTER */
+
+#line-2 {
+
+	height: 0.1em;
+	background-color: #e85f8a;
+}
+
+#row-3 {
+
+	height: 200px;
+	width: 100%;
+	margin-top: 100px;
+	
+}
+
+#footer {
+
+	height: 100%;
+	width: 100%;
+	display: flex;
+}
+
+
+#logo-container {
+
+	width: 15%;
+	margin-left: 170px;
+	margin-top: 75px;
+	
+}
+
+
+
+#redes {
+
+	background-color: transparent;
+	height: 50px;
+	width: 200px;
+	margin-top: 75px;
+	margin-left: 350px;
+	display: flex;
+}
+
+.fa-facebook-official:before {
+
+	font-size: 35px;
+	padding: 0px 10px;
+	text-decoration: none;
+	color: #e85f8a;
+}
+
+.fa-twitter-square:before {
+
+	font-size: 35px;
+	padding: 0px 10px;
+	text-decoration: none;
+	color: #e85f8a;
+}
+
+.fa-at:before {
+
+	font-size: 35px;
+	padding: 0px 10px;
+	text-decoration: none;
+	color: #e85f8a;
+}
+
+
+
