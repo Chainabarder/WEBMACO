@@ -156,7 +156,7 @@ h1 {
 	font-size: 35px;
 	text-align: center;
 	color: #e85f8a;
-	margin-top: 40px;
+	margin-top: 60px;
 
 }
 
@@ -213,13 +213,13 @@ p {
 	height: 50px;
 	width: 200px;
 	margin-top: 75px;
-	margin-left: 350px;
+	margin-left: 370px;
 	display: flex;
 }
 
 .fa-facebook-official:before {
 
-	font-size: 35px;
+	font-size: 45px;
 	padding: 0px 10px;
 	text-decoration: none;
 	color: #e85f8a;
@@ -227,7 +227,7 @@ p {
 
 .fa-twitter-square:before {
 
-	font-size: 35px;
+	font-size: 45px;
 	padding: 0px 10px;
 	text-decoration: none;
 	color: #e85f8a;
@@ -235,7 +235,7 @@ p {
 
 .fa-at:before {
 
-	font-size: 35px;
+	font-size: 45px;
 	padding: 0px 10px;
 	text-decoration: none;
 	color: #e85f8a;

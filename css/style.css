@@ -163,8 +163,8 @@ a:link  {
 .img-logo {
 
 	position: absolute;
-	left: 360px;
-	top: 383px;
+	left: 390px;
+	top: 393px;
 
 }
 
@@ -177,6 +177,7 @@ a:link  {
     height: 600px;
   	margin: 30px 60px;
   	display: flex;
+
 }
 
 
@@ -186,6 +187,9 @@ h1 {
 	font-size: 80px;
 	font-family: 'Josefin Sans', sans-serif;
 	color: #FFF;
+	display: flex;
+	margin-top: 225px;
+	margin-left: 40px;
 
 }
 
@@ -237,8 +241,6 @@ span p {
 	
 }
 
-
-
 #redes {
 
 	background-color: transparent;
@@ -273,3 +275,51 @@ span p {
 	color: #e85f8a;
 }
 
+
+/*QUERIES*/
+
+
+@media (min-width: 1201px) and (max-width: 1500px) {
+
+
+#row-1 {
+
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+
+	height: 100%;
+	color: #FFF;
+	display: flex;
+	justify-content: center;
+	width: 1024px;
+
+}
+
+#logo {
+
+	display: inline-flex;
+	justify-content: center;
+	align-items: flex-end;
+	margin-bottom: 5px;
+	margin-top: 58px;
+}
+
+
+
+#navigation {
+
+	display: flex;
+	justify-content: right;
+	color: transparent;
+	display: flex;
+	width: auto;
+}
+
+
+
+
+
+}
