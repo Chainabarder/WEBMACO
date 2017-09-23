@@ -24,15 +24,24 @@
 <a href="https://macomunicacion.000webhostapp.com//WEBMACO/index.html">
 <img src="logo/Maco.png" alt="MACO Agencia de Publicidad" class="logo-letras" style="color: red";> </a>
 </div>
-<div id="navigation" class="col-md-8 col-right">
 
+<div class="mobile-nav">
+     <div class="menu-btn" id="menu-btn">
+	<div></div>
+	<span></span>
+	<span></span>
+	<span></span>
+     </div>
+
+<div id="navigation" class="col-md-8 col-right">
+<div class="responsive-menu">
 <ul>
 <li><a id="Nosotros" href="https://macomunicacion.000webhostapp.com/WEBMACO/tabs/Nosotros/index.html"> Nosotros </a></li>
 <li><a id="Servicios" href="https://macomunicacion.000webhostapp.com/WEBMACO/tabs/Servicios/index.html"> Servicios </a></li>
 <li><a id="Clientes" href="https://macomunicacion.000webhostapp.com/WEBMACO/tabs/Clientes/index.html"> Clientes </a></li>
 <li><a id="Contacto" href="https://macomunicacion.000webhostapp.com/WEBMACO/tabs/Contacto/index.html"> Contacto </a></li>
 </ul>
-</div></div>
+</div></div></div>
 </div>
 </header>
 
@@ -63,7 +72,36 @@
 <a href= "marianoa828@hotmail.com" alt="Envianos un email"><i class="fa fa-at" aria-hidden="true"></i></a>
 </div></div></div>
 </footer>
-
-
+<script type="text/javascript">
+	jQuery(function($){
+    	$( '.menu-btn' ).click(function(){
+    		$('.responsive-menu').addClass('expand')
+    		$('.menu-btn').addClass('btn-none')
+    	})
+    	
+    	 $( '.close-btn' ).click(function(){
+    		$('.responsive-menu').removeClass('expand')
+    		$('.menu-btn').removeClass('btn-none')
+    	})
+  	})
+</script>
+<script type="text/javascript">
+	jQuery(function($){
+    	     $( '.menu-btn' ).click(function(){
+    	     $('.responsive-menu').toggleClass('expand')
+    	     })
+        })
+</script>
+<!-- Hotjar Tracking Code for https://macomunicacion.000webhostapp.com/WEBMACO/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:633831,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
 </body>
 </html>
