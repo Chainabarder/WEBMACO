@@ -8,7 +8,7 @@ body{
 #row-1 {
 
 	width: 100%;
-	height: 100%;
+	height: 80px;
 	display: flex;
 }
 
@@ -20,9 +20,6 @@ body{
 	justify-content: center;
 	width: 1024px;
 	flex: 1;
-
-
-	
 }
 
 #logo {
@@ -31,14 +28,10 @@ body{
 	display: inline-flex;
 	justify-content: center;
 	align-items: flex-end;
-	margin-bottom: 12px;
-	margin-top: 45px;
+	margin-bottom: 15px;
+	margin-left: 100px;
+	
 }
-
-
-
-
-
 
 ul {
 
@@ -46,8 +39,8 @@ ul {
 	list-style-type: none;
    text-align: center;
    align-items: right;
-   margin-top: 30px;
-   margin-right: 85px;
+   margin-left: 100px;
+   margin-top: 10px;
   	flex: 1;
    justify-content: flex-end;
 }
@@ -149,45 +142,7 @@ a:link  {
 	background-color: #e85f8a; 
 }
 
-/*BURGER MENU*/
-
-.menu-btn div {
-	visibility:hidden;
-	position: absolute;
-	left: 100%;
-	top: 64%;
-	padding-right: 8px;
-	margin-top: -0.50em;
-	line-height: 1.2;
-	font-size: 18px;
-	font-weight: 200;
-	vertical-align: middle;
-	z-index: 99;
-}
- 
-.menu-btn span {
-	visibility: hidden;
-	width: 19px;
-	height: 3px;
-	margin: 4px 0;
-	background: rgb(0,0,0);
-	z-index: 99;
-}
- 
-#responsive-menu{
-	
-	display: flex;
-	justify-content: right;
-	color: transparent;
-	display: flex;
-	width: auto;
-}
- 
-.expand {
-	display: block !important; 
-}
-
-/* ACA TERMINA EL HEADER */
+									/* ACA TERMINA EL HEADER */
 
 #row-2 {
 
@@ -204,7 +159,6 @@ a:link  {
 
 }
 
-
 #img-bck {
 
 	background-image: url("../imgs/img1.gif");
@@ -213,10 +167,7 @@ a:link  {
     height: 600px;
   	margin: 30px 60px;
   	display: flex;
-
 }
-
-
 
 h1 {
 	
@@ -250,7 +201,8 @@ span p {
 	height: 0.1em;
 	background-color: #e85f8a;
 }
-/* ACA TERMINA EL MAIN */
+
+										/* ACA TERMINA EL MAIN */
 
 
 #row-3 {
@@ -312,10 +264,10 @@ span p {
 }
 
 
-/*QUERIES*/
+													/*QUERIES*/
 
 
-@media (min-width: 768px) and (max-width: 992px) {
+								@media (min-width: 768px) and (max-width: 992px) {
 
 body{
 
@@ -338,9 +290,6 @@ body{
 	justify-content: center;
 	width: 1024px;
 	flex: 1;
-
-
-	
 }
 
 #logo {
@@ -352,7 +301,6 @@ body{
 	margin-bottom: 12px;
 	margin-top: 45px;
 }
-
 
 ul {
 
@@ -384,6 +332,251 @@ a:link  {
    
  text-decoration:none;   
 }   
+
+#Nosotros {
+
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #e85f8a;
+	text-decoration: none;
+}
+
+#Nosotros:hover {
+
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #000;
+	transition: all 500ms ease;
+	text-decoration: none;
+}
+
+#Servicios {
+
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #e85f8a;
+	text-decoration: none;
+}
+
+#Servicios:hover {
+
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #000;
+	transition: all 500ms ease;
+	text-decoration: none;
+}
+
+#Clientes {
+
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #e85f8a;
+	text-decoration: none;
+
+}
+
+#Clientes:hover {
+
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #000;
+	transition: all 500ms ease;
+	text-decoration: none;
+}
+
+#Contacto {
+
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #e85f8a;
+	text-decoration: none;
+}
+
+#Contacto:hover {
+
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #000;
+	transition: all 500ms ease;
+	text-decoration: none;
+}
+
+#line-1 {
+
+	height: 0.1em;
+	background-color: #e85f8a; 
+}
+
+#row-2 {
+
+	height: 600px;
+	width: 100%;
+	position: relative;
+}
+
+.img-logo {
+
+	position: absolute;
+	left: 390px;
+	top: 393px;
+}
+
+#img-bck {
+
+	background-image: url("../imgs/img1.gif");
+	background-repeat: no-repeat;
+    background-color: transparent;
+    height: 600px;
+  	margin: 30px 60px;
+  	display: flex;
+}
+
+h1 {
+	
+	font-size: 80px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #FFF;
+	display: flex;
+	margin-top: 225px;
+	margin-left: 40px;
+}
+
+span {
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+span p {
+
+	font-size: 35px;
+	line-height: 1em;
+	color: #FFF;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-bottom: -80px;
+}
+
+#line-2 {
+
+	height: 0.1em;
+	background-color: #e85f8a;
+}
+											/* ACA TERMINA EL MAIN */
+
+
+#row-3 {
+
+	height: 200px;
+	width: 100%;
+	margin-top: 100px;
+	
+}
+
+#footer {
+
+	height: 100%;
+	width: 100%;
+	display: flex;
+}
+
+
+#logo-container {
+
+	width: 15%;
+	margin-left: 170px;
+	margin-top: 75px;
+}
+
+#redes {
+
+	background-color: transparent;
+	height: 50px;
+	width: 200px;
+	margin-top: 75px;
+	margin-left: 350px;
+	display: flex;
+}
+
+.fa-facebook-official:before {
+
+	font-size: 35px;
+	padding: 0px 10px;
+	text-decoration: none;
+	color: #e85f8a;
+}
+
+.fa-twitter-square:before {
+
+	font-size: 35px;
+	padding: 0px 10px;
+	text-decoration: none;
+	color: #e85f8a;
+}
+
+.fa-at:before {
+
+	font-size: 35px;
+	padding: 0px 10px;
+	text-decoration: none;
+	color: #e85f8a;
+}
+
+												/* TABLET */
+
+								@media (min-width: 426px) and (max-width: 767px) {
+
+	body{
+
+	line-height: 1.4em;
+	background-color: #FFF;
+}
+
+#row-1 {
+
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+
+.container {
+
+	height: 100%;
+	color: #FFF;
+	display: flex;
+	justify-content: center;
+	width: 1024px;
+	flex: 1;	
+}
+
+
+#logo {
+
+	flex: 1;
+	display: inline-flex;
+	justify-content: center;
+	align-items: flex-end;
+	margin-bottom: 25px;
+	margin-top: 8px;
+	margin-left: 800px;
+}
+
+#navigation {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #FFF;
+    box-shadow: 0 4px 4px -3px #e85f8a;
+    -moz-box-shadow: 0 4px 4px -3px #e85f8a;
+    -webkit-box-shadow: 0 4px 4px -3px #e85f8a;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+    padding-top: 0px;
+}
+
 
 #Nosotros {
 
@@ -456,47 +649,7 @@ a:link  {
 	text-decoration: none;
 }
 
-
-#line-1 {
-
-	height: 0.1em;
-	background-color: #e85f8a; 
-}
-
-/*BURGER MENU*/
-
-.menu-btn div {
-	visibility:hidden;
-	position: absolute;
-	left: 100%;
-	top: 64%;
-	padding-right: 8px;
-	margin-top: -0.50em;
-	line-height: 1.2;
-	font-size: 18px;
-	font-weight: 200;
-	vertical-align: middle;
-	z-index: 99;
-}
- 
-.menu-btn span {
-	visibility: hidden;
-	width: 19px;
-	height: 3px;
-	margin: 4px 0;
-	background: rgb(0,0,0);
-	z-index: 99;
-}
- 
-#responsive-menu{
-	display: hidden;
-}
- 
-.expand {
-	display: block !important; 
-}
-
-/*END OF BURGER*/
+											/*ACA TERMINA EL BURGER*/
 
 #row-2 {
 
@@ -524,334 +677,6 @@ a:link  {
   	display: flex;
 
 }
-
-
-
-h1 {
-	
-	font-size: 80px;
-	font-family: 'Josefin Sans', sans-serif;
-	color: #FFF;
-	display: flex;
-	margin-top: 225px;
-	margin-left: 40px;
-
-}
-
-span {
-
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-span p {
-
-	font-size: 35px;
-	line-height: 1em;
-	color: #FFF;
-	font-family: 'Josefin Sans', sans-serif;
-	margin-bottom: -80px;
-}
-
-#line-2 {
-
-	height: 0.1em;
-	background-color: #e85f8a;
-}
-/* ACA TERMINA EL MAIN */
-
-
-#row-3 {
-
-	height: 200px;
-	width: 100%;
-	margin-top: 100px;
-	
-}
-
-#footer {
-
-	height: 100%;
-	width: 100%;
-	display: flex;
-}
-
-
-#logo-container {
-
-	width: 15%;
-	margin-left: 170px;
-	margin-top: 75px;
-	
-}
-
-#redes {
-
-	background-color: transparent;
-	height: 50px;
-	width: 200px;
-	margin-top: 75px;
-	margin-left: 350px;
-	display: flex;
-}
-
-.fa-facebook-official:before {
-
-	font-size: 35px;
-	padding: 0px 10px;
-	text-decoration: none;
-	color: #e85f8a;
-}
-
-.fa-twitter-square:before {
-
-	font-size: 35px;
-	padding: 0px 10px;
-	text-decoration: none;
-	color: #e85f8a;
-}
-
-.fa-at:before {
-
-	font-size: 35px;
-	padding: 0px 10px;
-	text-decoration: none;
-	color: #e85f8a;
-}
-
-}
-
-
-/* TABLET */
-
-@media (min-width: 426px) and (max-width: 767px) {
-
-	body{
-
-	line-height: 1.4em;
-	background-color: #FFF;
-}
-
-#row-1 {
-
-	width: 100%;
-	height: 100%;
-	display: flex;
-}
-
-.container {
-
-	height: 100%;
-	color: #FFF;
-	display: flex;
-	justify-content: center;
-	width: 1024px;
-	flex: 1;
-
-
-	
-}
-
-#logo {
-
-	flex: 1;
-	display: inline-flex;
-	justify-content: center;
-	align-items: flex-end;
-	margin-bottom: 12px;
-	margin-top: 45px;
-}
-
-
-
-
-
-
-ul {
-
-	display: inline-flex;
-	list-style-type: none;
-   text-align: center;
-   align-items: right;
-   margin-top: 30px;
-   margin-right: 85px;
-  	flex: 1;
-   justify-content: flex-end;
-   visibility: hidden;
-}
-
-ul li {
-
-	margin-top: 40px;
-	margin-left: 50px;
-	visibility: inherit;
-}
-
-ul li a {
-
-	font-size: 18px;
-	font-family: 'Josefin Sans', sans-serif;
-	text-decoration: none;
-	color: #e85f8a;
-	visibility: inherit;
-}
-
-a:link  {
-   
- text-decoration:none;   
-}    
-
-.Nosotros {
-
-	font-size: 18px;
-	font-family: 'Josefin Sans', sans-serif;
-	color: #e85f8a;
-	text-decoration: none;
-
-}
-
-.Nosotros:hover {
-
-	font-size: 18px;
-	font-family: 'Josefin Sans', sans-serif;
-	color: #000;
-	transition: all 500ms ease;
-	text-decoration: none;
-
-}
-
-.Servicios {
-
-	font-size: 18px;
-	font-family: 'Josefin Sans', sans-serif;
-	color: #e85f8a;
-	text-decoration: none;
-
-}
-
-.Servicios:hover {
-
-	font-size: 18px;
-	font-family: 'Josefin Sans', sans-serif;
-	color: #000;
-	transition: all 500ms ease;
-	text-decoration: none;
-}
-
-.Clientes {
-
-	font-size: 18px;
-	font-family: 'Josefin Sans', sans-serif;
-	color: #e85f8a;
-	text-decoration: none;
-
-}
-
-.Clientes:hover {
-
-	font-size: 18px;
-	font-family: 'Josefin Sans', sans-serif;
-	color: #000;
-	transition: all 500ms ease;
-	text-decoration: none;
-}
-
-.Contacto {
-
-	font-size: 18px;
-	font-family: 'Josefin Sans', sans-serif;
-	color: #e85f8a;
-	text-decoration: none;
-}
-
-.Contacto:hover {
-
-	font-size: 18px;
-	font-family: 'Josefin Sans', sans-serif;
-	color: #000;
-	transition: all 500ms ease;
-	text-decoration: none;
-}
-
-
-#line-1 {
-
-	height: 0.1em;
-	background-color: #e85f8a; 
-}
-
-/*BURGER MENU*/
-
-.menu-btn div {
-	visibility:visible;
-	position: absolute;
-	left: 100%;
-	top: 64%;
-	padding-right: 8px;
-	margin-top: -0.50em;
-	line-height: 1.2;
-	font-size: 18px;
-	font-weight: 200;
-	vertical-align: middle;
-	z-index: 99;
-	display: flex;
-	margin-top: 45px;
-	margin-left: 400px;
-}
- 
-.menu-btn span {
-	visibility: visible;
-	width: 19px;
-	height: 3px;
-	margin: 4px 0;
-	background: rgb(0,0,0);
-	z-index: 99;
-}
- 
-#responsive-menu{
-	
-	display: flex;
-	justify-content: right;
-	color: transparent;
-	display: flex;
-	width: auto;
-}
- 
-.expand {
-	display: block !important; 
-}
-
-/* ACA TERMINA EL HEADER */
-
-#row-2 {
-
-	height: 600px;
-	width: 100%;
-	position: relative;
-}
-
-.img-logo {
-
-	position: absolute;
-	left: 390px;
-	top: 393px;
-
-}
-
-
-#img-bck {
-
-	background-image: url("../imgs/img1.gif");
-	background-repeat: no-repeat;
-    background-color: transparent;
-    height: 600px;
-  	margin: 30px 60px;
-  	display: flex;
-
-}
-
-
 
 h1 {
 	
@@ -944,6 +769,4 @@ span p {
 	color: #e85f8a;
 }
 
-
-}
 
